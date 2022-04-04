@@ -1,7 +1,7 @@
+use std::fs;
+use std::io::prelude::*;
 use std::net::TcpListener;
 use std::net::TcpStream;
-use std::io::prelude::*;
-use std::fs;
 use webserver::ThreadPool;
 
 fn main() {
